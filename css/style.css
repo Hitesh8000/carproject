@@ -1,0 +1,40 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.box1{
+    border: 1px solid rgb(200, 198, 198);
+    width: 200px;
+    box-shadow: 2px 2px 3px 3px#333333;transition: 1s;
+}
+
+.box1 img:hover{
+    cursor: pointer;
+}
+
+.box1:hover{
+    box-shadow: 1px 2px 2px 2px #000000;transition: 1s;
+
+}
+
+.box2{
+    border-top: 1px solid rgb(200, 198, 198);
+    margin: 2px;
+    padding: 2px;
+}
+
+.box{
+    justify-content: space-around;
+    margin-top: 15px;
+    display: flex;
+}
+
+.box3{
+    display: flex;
+}
+
+.box4{
+    margin: 8.5px;
+    padding: 8.5px;
+}
